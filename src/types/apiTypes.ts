@@ -1,4 +1,4 @@
-import { ApiActionsTypes } from './actionTypes'
+import { ApiActionTypes } from './actionTypes'
 
 export interface ApiRequest<T = any> {
     request: {
@@ -9,6 +9,6 @@ export interface ApiRequest<T = any> {
 }
 
 export interface ApiResponse<T> {
-    type: ApiActionsTypes
+    type: ApiActionTypes
     data: T
 }
